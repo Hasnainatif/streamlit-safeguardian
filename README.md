@@ -63,8 +63,8 @@
 
 <ol>
   <li>Clone the repository:
-    <pre><code>git clone https://github.com/your-repo/SafeGuardianAI.git
-cd SafeGuardianAI</code></pre>
+    <pre><code>git clone [https://github.com/your-repo/SafeGuardianAI.git](https://github.com/Ashoka74/streamlit-safeguardian)
+cd streamlit-safeguardian</code></pre>
   </li>
   <li>Install dependencies:
     <pre><code>pip install -r requirements.txt</code></pre>
