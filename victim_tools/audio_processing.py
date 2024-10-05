@@ -50,10 +50,10 @@ def text_to_speech_elevenlabs(text):
     text = ''.join(text)
     url = f"https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM"
     try:
-    elevenlab_api = os.getenv('elevenlabs_api')
+        elevenlab_api = os.getenv('elevenlabs_api')
     except Exception as e:
         print(f"No .env file, looking at secrets.toml")
-        gemini_api = st.secrets["elevenlabs_api"]
+        elevenlab_api = st.secrets["elevenlabs_api"]
 
     headers = {
     "accept": "audio/mpeg",
